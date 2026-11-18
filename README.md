@@ -1,10 +1,10 @@
-<div dir="rtl">
+<div dir="rtl" markdown="1">
 
 # مهارة البحث في المكتبة الشاملة على جهازك
 
 مهارة لـ Claude تجعله يبحث في نسختك أنت من «المكتبة الشاملة ٤» المثبتة على حاسوبك، لا في موقع الشاملة، بحثًا منهجيًّا موثَّقًا بالجزء والصفحة. ولها طريقة ثانية تستعين فيها بكونكتر «وصلة الشاملة».
 
-### ⬇️ [تنزيل المهارة (shamela-local-research.zip)](../../releases/latest/download/shamela-local-research.zip)
+### ⬇️ [تنزيل المهارة (shamela-local-research.zip)](https://github.com/kmasskmass-svg/shamela-local-research/releases/latest/download/shamela-local-research.zip)
 
 > نزّل الملف من الرابط أعلاه، ولا تستعمل زر «Code ← Download ZIP» في هذه الصفحة. فذلك الزر يلفّ الملفات في مجلد إضافي، فيفشل رفعها إلى Claude.
 
@@ -55,7 +55,7 @@
 | تطبيق Claude لسطح المكتب | على ويندوز أو ماك، مفتوحًا ومتصلًا بالإنترنت أثناء البحث. تستطيع بعدها السؤال من الجوال أو المتصفح، ما دام الحاسوب يعمل. |
 | المكتبة الشاملة ٤ | مثبتة على الحاسوب نفسه، وفيها الكتب التي تريد البحث فيها منزّلة. البحث لا يرى إلا المنزّل. |
 | إضافة «بحث ودراسة في المكتبة الشاملة» | مثبتة ومفعّلة في تطبيق Claude لسطح المكتب، وموجّهة إلى مجلد الشاملة. رابط تنزيلها: (الرابط يُضاف هنا). |
-| ملف المهارة | [shamela-local-research.zip](../../releases/latest/download/shamela-local-research.zip) |
+| ملف المهارة | [shamela-local-research.zip](https://github.com/kmasskmass-svg/shamela-local-research/releases/latest/download/shamela-local-research.zip) |
 
 بدون الإضافة لا تعمل الطريقة المحلية، لأن المهارة تعليمات لا تصل بنفسها إلى الكتب. ومن لم تتيسر له الإضافة يستطيع استعمال [الكونكتر](#الشاملة-عبر-الكونكتر).
 
@@ -63,7 +63,7 @@
 
 تُرفع المهارة مرة واحدة ملفًا مضغوطًا (ZIP)، ثم تصبح متاحة في كل محادثاتك. أسماء القوائم هنا بحسب [مركز مساعدة Claude](https://support.claude.com/en/articles/12512180)، وقد تختلف قليلًا باختلاف إصدار التطبيق.
 
-1. نزّل الملف [shamela-local-research.zip](../../releases/latest/download/shamela-local-research.zip) ولا تفكّ ضغطه.
+1. نزّل الملف [shamela-local-research.zip](https://github.com/kmasskmass-svg/shamela-local-research/releases/latest/download/shamela-local-research.zip) ولا تفكّ ضغطه.
 2. افتح claude.ai أو تطبيق سطح المكتب، ثم الإعدادات ← القدرات (Settings ← Capabilities)، وتأكد أن «تنفيذ الشيفرة وإنشاء الملفات» مفعّل. وفي حسابات Team وEnterprise يفعّله مدير المؤسسة.
 3. اذهب إلى «تخصيص ← المهارات» (Customize ← Skills)، وفي بعض الإصدارات: Settings ← Capabilities ← Skills.
 4. اضغط زر «+» ثم «Create skill» ثم «Upload a skill»، واختر الملف المضغوط.
@@ -71,7 +71,7 @@
 
 **لمستخدمي Claude Code**: فكّ الملف في مجلد المهارات `~/.claude/skills/`.
 
-**تنبيه**: المهارة المرفوعة خاصة بحسابك، فمن أرادها يرفع الملف في حسابه. ولا ترفع مهارة إلا من مصدر تثق به. ولك أن تقرأ نصها كاملًا قبل الرفع في الملف [SKILL.md](shamela-local-research/SKILL.md).
+**تنبيه**: المهارة المرفوعة خاصة بحسابك، فمن أرادها يرفع الملف في حسابه. ولا ترفع مهارة إلا من مصدر تثق به. ولك أن تقرأ نصها كاملًا قبل الرفع في الملف [SKILL.md](https://github.com/kmasskmass-svg/shamela-local-research/blob/main/shamela-local-research/SKILL.md).
 
 ## طريقة الاستخدام
 
@@ -83,7 +83,7 @@
 /shamela-local-research محلي: ما الفرق بين الاستصناع والسلم عند الحنابلة؟
 ```
 
-<div dir="rtl">
+<div dir="rtl" markdown="1">
 
 - اكتب «محلي» أو «من جهازي فقط» للبحث في جهازك وحده.
 - اكتب «بالكونكتر» للاستعانة بأدوات الكونكتر الإضافية.
@@ -143,7 +143,7 @@
 claude mcp add --transport http shamela https://shamela.link/mcp
 ```
 
-<div dir="rtl">
+<div dir="rtl" markdown="1">
 
 ثم `/mcp` لتسجيل الدخول.
 
@@ -178,7 +178,7 @@ claude mcp add --transport http shamela https://shamela.link/mcp
 /shamela-local-research محلي: ما الفرق بين عقد الاستصناع وعقد السلم في كتب الحنابلة؟
 ```
 
-<div dir="rtl">
+<div dir="rtl" markdown="1">
 
 **ما فعله Claude خطوة خطوة:**
 
@@ -215,6 +215,6 @@ claude mcp add --transport http shamela https://shamela.link/mcp
 | --- | --- |
 | `README.md` | هذا الدليل |
 | `shamela-local-research/SKILL.md` | نص المهارة، للاطلاع عليه قبل الرفع |
-| [Releases](../../releases/latest) | الملف المضغوط الجاهز للرفع إلى Claude |
+| [Releases](https://github.com/kmasskmass-svg/shamela-local-research/releases/latest) | الملف المضغوط الجاهز للرفع إلى Claude |
 
 </div>
